@@ -1,0 +1,10 @@
+apiVersion: v1
+name: python-helloworld
+description: Install Python Helloworld
+keywords:
+- python
+- helloworld
+version: 1.0.0
+maintainers:
+- name: Dobuzi
+  email: kimjw7981@gmail.com
