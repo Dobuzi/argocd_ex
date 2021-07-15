@@ -27,3 +27,5 @@ spec:
       - image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
         imagePullPolicy: {{ .Values.image.pull.policy }} 
         name: nginx-deployment
+        resources:
+{{ toYaml .Values.resources | indent 12 }}
