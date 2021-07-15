@@ -11,7 +11,7 @@ image:
 
 resources:
   requests:
-    CPU: 50m
+    cpu: 50m
     memory: 256Mi
 
 service:
