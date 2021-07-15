@@ -3,4 +3,5 @@ data: {{ .Values.configmap.data }}
 kind: ConfigMap
 metadata:
   name: nginx-deployment
-  namespace: {{ .Values.namespace.name }} 
+  namespace:
+{{ toYaml .Values.namespace.name | indent 4 }}
